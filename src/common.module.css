@@ -1,0 +1,30 @@
+.wrapper {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
+
+  background-color: lightgray;
+}
+
+a {
+  margin-left: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  display: block;
+  margin-bottom: 5px;
+}
+
+button {
+  width: 120px;
+}
+
+span {
+  margin-right: 5px;
+}

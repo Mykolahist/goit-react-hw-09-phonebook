@@ -1,33 +1,26 @@
-.nav {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: 0;
-  font-size: 18px;
-  font-weight: 500;
+.container__flex {
+  display: flex;
+  align-items: center;
 }
 
-.button {
-  margin-bottom: 15px;
-  margin-right: 15px;
-  margin-left: 15px;
+.link {
   padding: 5px;
+  text-decoration: none;
   font-size: 18px;
   font-weight: 600;
-  text-transform: capitalize;
-
-  border: none;
+  color: black;
   border-radius: 4px;
   background-color: yellowgreen;
   cursor: pointer;
 }
 
-.button:hover {
+.link:hover {
   color: white;
   background-color: rgb(103, 175, 20);
   transform: scale(1.03);
 }
 
-.button:active {
+.link:active {
   color: yellowgreen;
   border: 1px solid accent-color;
 }
